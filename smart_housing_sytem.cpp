@@ -41,7 +41,7 @@ String inputPass = "";
 bool systemActive = false;
 
 void setup() {
-  Serial.begin(9600); 
+ Serial.begin(9600);
   delay(1000); 
   Serial.println("--- System Initializing ---");
 
